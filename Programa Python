@@ -1,0 +1,200 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# --------------------------------------------------
+# Cargar datos
+# --------------------------------------------------
+df = pd.read_csv('ventas_tienda_tecnologia2.csv')
+
+# --------------------------------------------------
+# Función: Limpieza de datos
+# --------------------------------------------------
+def limpiar_datos(df):
+
+    # Corrección de precios nulos
+    precios = {
+        'Monitor 24 pulgadas': 168400,
+        'Monitor 27 pulgadas curvo': 293200,
+        'Funda protectora celular': 7900,
+        'Teclado mecánico': 15000,
+        'Celular gama media': 200000,
+        'Laptop 14 pulgadas': 450000,
+        'Audífonos inalámbricos': 15000
+    }
+
+    for producto, precio in precios.items():
+        df.loc[
+            (df['producto'] == producto) &
+            (df['precio_unitario'].isna()),
+            'precio_unitario'
+        ] = precio
+
+    # Corrección de regiones nulas
+    regiones = {
+        'FABIOLA ARAYA': 'Cartago',
+        'MARISOL VARGAS': 'Limón',
+        'ANA ROJAS': 'San José',
+        'KEVIN SOLANO': 'Heredia'
+    }
+
+    for vendedor, region in regiones.items():
+        df.loc[
+            (df['vendedor'].str.strip().str.upper() == vendedor) &
+            (df['region'].isna()),
+            'region'
+        ] = region
+
+    # Eliminar duplicados
+    df.drop_duplicates(subset=['id_venta'], inplace=True)
+
+    # Crear monto de venta
+    df['monto_venta'] = df['cantidad'] * df['precio_unitario']
+
+    # Clasificación de ventas
+    df['nivel_venta'] = df['monto_venta'].apply(
+        lambda x: 'Alto' if x >= 500000 else 'Bajo'
+    )
+
+    print("\n✅ Datos limpiados correctamente.\n")
+
+
+# --------------------------------------------------
+# Función: Resumen general
+# --------------------------------------------------
+def mostrar_resumen(df):
+    print("\n===== RESUMEN DEL DATASET =====\n")
+    print(df.info())
+    print("\nEstadísticas:")
+    print(df.describe())
+    print("\nValores nulos:")
+    print(df.isnull().sum())
+
+
+# --------------------------------------------------
+# Función: Top vendedores
+# --------------------------------------------------
+def top_vendedores(df):
+
+    if 'monto_venta' not in df.columns:
+        print("Primero debe limpiar los datos.")
+        return
+
+    top = (
+        df.groupby('vendedor')['monto_venta']
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    print("\n===== TOP VENDEDORES =====\n")
+    print(top)
+
+
+# --------------------------------------------------
+# Función: Resumen por categoría
+# --------------------------------------------------
+def resumen_categoria(df):
+
+    if 'monto_venta' not in df.columns:
+        print("Primero debe limpiar los datos.")
+        return
+
+    resumen = df.groupby('categoria')['monto_venta'].agg(
+        ['sum', 'mean', 'count']
+    )
+
+    print("\n===== RESUMEN POR CATEGORÍA =====\n")
+    print(resumen)
+
+
+# --------------------------------------------------
+# Función: Gráfico Top 10 productos
+# --------------------------------------------------
+def grafico_productos(df):
+
+    top10 = (
+        df.groupby('producto')['cantidad']
+        .sum()
+        .sort_values(ascending=False)
+        .head(10)
+    )
+
+    plt.figure(figsize=(10, 6))
+    top10.plot(kind='bar', color='steelblue')
+
+    plt.title('Top 10 Productos Más Vendidos')
+    plt.xlabel('Producto')
+    plt.ylabel('Cantidad Vendida')
+    plt.tight_layout()
+    plt.show()
+
+
+# --------------------------------------------------
+# Función: Gráfico ventas por región
+# --------------------------------------------------
+def grafico_region(df):
+
+    if 'monto_venta' not in df.columns:
+        print("Primero debe limpiar los datos.")
+        return
+
+    ventas_region = (
+        df.groupby('region')['monto_venta']
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    plt.figure(figsize=(8, 5))
+    ventas_region.plot(
+        kind='bar',
+        color='green'
+    )
+
+    plt.title('Ventas Totales por Región')
+    plt.xlabel('Región')
+    plt.ylabel('Monto de Venta (₡)')
+    plt.tight_layout()
+    plt.show()
+
+
+# --------------------------------------------------
+# MENÚ PRINCIPAL
+# --------------------------------------------------
+while True:
+
+    print("\n" + "="*40)
+    print("  ANÁLISIS DE VENTAS TECNOLOGÍA")
+    print("="*40)
+    print("1. Limpiar datos")
+    print("2. Mostrar resumen del dataset")
+    print("3. Mostrar top vendedores")
+    print("4. Resumen por categoría")
+    print("5. Gráfico Top 10 productos")
+    print("6. Gráfico ventas por región")
+    print("7. Salir")
+
+    opcion = input("\nSeleccione una opción: ")
+
+    if opcion == "1":
+        limpiar_datos(df)
+
+    elif opcion == "2":
+        mostrar_resumen(df)
+
+    elif opcion == "3":
+        top_vendedores(df)
+
+    elif opcion == "4":
+        resumen_categoria(df)
+
+    elif opcion == "5":
+        grafico_productos(df)
+
+    elif opcion == "6":
+        grafico_region(df)
+
+    elif opcion == "7":
+        print("\nGracias por utilizar el sistema. ¡Hasta luego!")
+        break
+
+    else:
+        print("\n❌ Opción inválida. Intente nuevamente.")
