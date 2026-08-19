@@ -1,0 +1,234 @@
+id_venta;fecha;producto;categoria;cantidad;precio_unitario;vendedor;region;metodo_pago;cliente_frecuente
+1;27/2/2025;Cargador portátil (power bank);Accesorios;1;12600.0;Luis Chinchilla;Alajuela;Tarjeta;No
+2;17/2/2025;Laptop 14 pulgadas;Laptops;1;516400.0;Ana Rojas;Puntarenas;Efectivo;No
+3;4/1/2025;Audífonos inalámbricos;Audio;3;19800.0;Kevin Solano;Cartago;Transferencia;Sí
+4;3/7/2025;Laptop gamer 15 pulgadas;Laptops;3;982000.0;Ana Rojas;Guanacaste;Sinpe Móvil;No
+5;5/7/2025;Cargador portátil (power bank);Accesorios;2;18200.0;Ana Rojas;Guanacaste;Efectivo;No
+6;23/5/2025;Monitor 24 pulgadas;Monitores;2;168400.0;Luis Chinchilla;Cartago;Transferencia;Sí
+7;29/3/2025;Teclado mecánico;Accesorios;2;24600.0;Kevin Solano;Heredia;Transferencia;No
+8;28/4/2025;Laptop 14 pulgadas;Laptops;3;597400.0;Kevin Solano;Cartago;Tarjeta;Sí
+9;13/9/2025;Cargador portátil (power bank);Accesorios;1;20900.0;Kevin Solano;Alajuela;Transferencia;Sí
+10;24/7/2025;Monitor 24 pulgadas;Monitores;1;168400.0;Luis Chinchilla;Puntarenas;Sinpe Móvil;Sí
+11;5/8/2025;Cargador portátil (power bank);Accesorios;2;14000.0;Fabiola Araya;Cartago;Transferencia;No
+12;17/5/2025;Cargador portátil (power bank);Accesorios;3;13400.0;Marisol Vargas;Heredia;Efectivo;No
+13;2/4/2025;Mouse inalámbrico;Accesorios;2;7000.0;Marisol Vargas;Limón;Efectivo;Sí
+14;1/1/2025;Mouse inalámbrico;Accesorios;2;10400.0;Ana Rojas;Cartago;Transferencia;Sí
+15;6/9/2025;Funda protectora celular;Accesorios;3;7900.0;Fabiola Araya;Limón;Efectivo;Sí
+16;5/8/2025;Teclado mecánico;Accesorios;5;43100.0;Luis Chinchilla;Guanacaste;Transferencia;No
+17;3/3/2025;Monitor 27 pulgadas curvo;Monitores;1;293200;Ana Rojas;Puntarenas;Efectivo;No
+18;17/1/2025;Laptop gamer 15 pulgadas;Laptops;4;689000.0;Luis Chinchilla;Cartago;Sinpe Móvil;Sí
+18;17/1/2025;Laptop gamer 15 pulgadas;Laptops;4;689000.0;Luis Chinchilla;Cartago;Sinpe Móvil;Sí
+19;5/5/2025;Monitor 27 pulgadas curvo;Monitores;3;295000.0;Luis Chinchilla;San José;Tarjeta;No
+20;20/2/2025;Laptop 14 pulgadas;Laptops;1;576600.0;Ana Rojas;Alajuela;Efectivo;Sí
+21;8/2/2025;Celular gama alta;Celulares;1;651500.0;Fabiola Araya;Cartago;Tarjeta;No
+22;27/3/2025;Celular gama alta;Celulares;1;518500.0;Kevin Solano;San José;Efectivo;No
+23;27/5/2025;Monitor 27 pulgadas curvo;Monitores;1;314500.0;Fabiola Araya;Guanacaste;Sinpe Móvil;Sí
+24;1/2/2025;Mouse inalámbrico;Accesorios;3;6500.0;Fabiola Araya;Heredia;Efectivo;Sí
+25;1/5/2025;Laptop gamer 15 pulgadas;Laptops;1;1167900.0;Fabiola Araya;Alajuela;Tarjeta;No
+26;15/4/2025;Audífonos inalámbricos;Audio;2;24400.0;Marisol Vargas;Heredia;Efectivo;No
+27;5/1/2025;Laptop gamer 15 pulgadas;Laptops;2;1199100.0;Ana Rojas;San José;Efectivo;No
+28;9/7/2025;Celular gama alta;Celulares;1;503400.0;  FABIOLA ARAYA  ;Guanacaste;Transferencia;No
+29;3/6/2025;Mouse inalámbrico;Accesorios;4;6900.0;Luis Chinchilla;Cartago;Tarjeta;No
+30;25/6/2025;Celular gama alta;Celulares;1;572000.0;Marisol Vargas;Limón;Sinpe Móvil;Sí
+31;23/1/2025;Audífonos inalámbricos;Audio;1;38100.0;Marisol Vargas;Limón;Sinpe Móvil;No
+32;18/3/2025;Funda protectora celular;Accesorios;2;7900;Fabiola Araya;Puntarenas;Efectivo;No
+33;3/7/2025;Laptop 14 pulgadas;Laptops;1;447400.0;Ana Rojas;Cartago;Sinpe Móvil;No
+34;1/4/2025;Celular gama media;Celulares;4;153700.0;Marisol Vargas;Limón;Sinpe Móvil;No
+35;25/2/2025;Funda protectora celular;Accesorios;1;3200.0;Kevin Solano;Alajuela;Efectivo;No
+36;25/4/2025;Celular gama alta;Celulares;1;417600.0;Marisol Vargas;Cartago;Tarjeta;No
+37;19/6/2025;Mouse inalámbrico;Accesorios;4;7000.0;Marisol Vargas;Alajuela;Transferencia;Sí
+38;19/9/2025;Monitor 24 pulgadas;Monitores;1;168400.0;Luis Chinchilla;Cartago;Tarjeta;No
+39;11/4/2025;Funda protectora celular;Accesorios;1;3300.0;Marisol Vargas;Puntarenas;Transferencia;No
+40;29/7/2025;Cargador portátil (power bank);Accesorios;1;18100.0;Fabiola Araya;Alajuela;Efectivo;No
+41;4/6/2025;Teclado mecánico;Accesorios;1;40500.0;Marisol Vargas;Cartago;Efectivo;No
+42;20/4/2025;Monitor 27 pulgadas curvo;Monitores;2;293200.0;Luis Chinchilla;Guanacaste;Tarjeta;Sí
+43;8/6/2025;Celular gama alta;Celulares;1;419700.0;Ana Rojas;San José;Efectivo;No
+44;10/4/2025;Cargador portátil (power bank);Accesorios;3;25000;Kevin Solano;Alajuela;Efectivo;No
+45;6/8/2025;Laptop gamer 15 pulgadas;Laptops;1;1092300.0;Fabiola Araya;Heredia;Tarjeta;No
+46;12/6/2025;Monitor 27 pulgadas curvo;Monitores;5;305900.0;Fabiola Araya;Limón;Sinpe Móvil;No
+47;19/8/2025;Monitor 27 pulgadas curvo;Monitores;1;222100.0;Marisol Vargas;Limón;Sinpe Móvil;No
+48;21/6/2025;Audífonos inalámbricos;Audio;1;31200.0;Luis Chinchilla;Alajuela;Efectivo;No
+49;27/8/2025;Parlante bluetooth;Audio;1;28300.0;  KEVIN SOLANO  ;Heredia;Tarjeta;No
+50;2/6/2025;Parlante bluetooth;Audio;3;54100.0;Kevin Solano;Puntarenas;Efectivo;No
+51;27/7/2025;Cargador portátil (power bank);Accesorios;3;19900.0;Luis Chinchilla;Puntarenas;Tarjeta;No
+52;11/3/2025;Monitor 24 pulgadas;Monitores;4;122700.0;Marisol Vargas;Heredia;Transferencia;Sí
+53;10/5/2025;Monitor 24 pulgadas;Monitores;3;168400.0;  FABIOLA ARAYA  ;San José;Transferencia;Sí
+54;7/5/2025;Laptop 14 pulgadas;Laptops;1;385500.0;Luis Chinchilla;Alajuela;Efectivo;No
+55;8/7/2025;Audífonos inalámbricos;Audio;1;33200.0;Ana Rojas;San José;Efectivo;No
+56;12/7/2025;Cargador portátil (power bank);Accesorios;1;18300.0;Ana Rojas;Puntarenas;Efectivo;Sí
+57;22/1/2025;Laptop gamer 15 pulgadas;Laptops;1;885600.0;Marisol Vargas;San José;Transferencia;Sí
+58;24/8/2025;Parlante bluetooth;Audio;3;37400.0;Fabiola Araya;Guanacaste;Transferencia;No
+59;18/5/2025;Funda protectora celular;Accesorios;1;4200.0;Ana Rojas;Cartago;Sinpe Móvil;Sí
+60;11/9/2025;Laptop 14 pulgadas;Laptops;4;429100.0;Luis Chinchilla;Cartago;Transferencia;Sí
+61;22/9/2025;Laptop 14 pulgadas;Laptops;4;403100.0;Kevin Solano;Heredia;Efectivo;No
+62;31/5/2025;Laptop gamer 15 pulgadas;Laptops;1;1030500.0;Marisol Vargas;Guanacaste;Transferencia;No
+63;30/6/2025;Parlante bluetooth;Audio;3;30800.0;Marisol Vargas;Alajuela;Tarjeta;No
+64;5/4/2025;Funda protectora celular;Accesorios;1;6700.0;Marisol Vargas;Guanacaste;Transferencia;No
+65;8/1/2025;Audífonos inalámbricos;Audio;3;18800.0;Ana Rojas;San José;Transferencia;No
+66;26/5/2025;Laptop 14 pulgadas;Laptops;2;498900.0;Luis Chinchilla;San José;Transferencia;No
+67;28/1/2025;Laptop gamer 15 pulgadas;Laptops;1;1096100.0;Marisol Vargas;San José;Efectivo;Sí
+68;25/9/2025;Celular gama alta;Celulares;1;668000.0;Marisol Vargas;Limón;Sinpe Móvil;Sí
+69;19/4/2025;Celular gama alta;Celulares;1;378400.0;Luis Chinchilla;Alajuela;Tarjeta;Sí
+69;19/4/2025;Celular gama alta;Celulares;1;378400.0;Luis Chinchilla;Alajuela;Tarjeta;Sí
+70;29/4/2025;Laptop 14 pulgadas;Laptops;1;456300.0;Kevin Solano;San José;Efectivo;No
+71;6/8/2025;Celular gama alta;Celulares;1;428700.0;Luis Chinchilla;Cartago;Efectivo;Sí
+72;28/5/2025;Teclado mecánico;Accesorios;1;30700.0;Marisol Vargas;Guanacaste;Sinpe Móvil;No
+73;10/8/2025;Laptop 14 pulgadas;Laptops;3;543000.0;Ana Rojas;San José;Efectivo;No
+74;18/5/2025;Cargador portátil (power bank);Accesorios;2;18900.0;Luis Chinchilla;Heredia;Sinpe Móvil;No
+75;16/2/2025;Monitor 27 pulgadas curvo;Monitores;2;243100.0;Marisol Vargas;Guanacaste;Tarjeta;No
+76;19/1/2025;Monitor 24 pulgadas;Monitores;2;132000.0;Marisol Vargas;Limón;Sinpe Móvil;No
+77;31/7/2025;Monitor 27 pulgadas curvo;Monitores;1;257400.0;Fabiola Araya;Limón;Sinpe Móvil;No
+78;13/8/2025;Audífonos inalámbricos;Audio;4;29500.0;Ana Rojas;San José;Efectivo;No
+79;28/2/2025;Celular gama alta;Celulares;2;391100.0;Luis Chinchilla;Heredia;Transferencia;No
+80;22/8/2025;Celular gama alta;Celulares;2;484300.0;Fabiola Araya;Puntarenas;Efectivo;No
+80;22/8/2025;Celular gama alta;Celulares;2;484300.0;Fabiola Araya;Puntarenas;Efectivo;No
+81;17/5/2025;Mouse inalámbrico;Accesorios;3;8500.0;Marisol Vargas;Limón;Sinpe Móvil;No
+82;13/7/2025;Mouse inalámbrico;Accesorios;2;8900.0;  LUIS CHINCHILLA  ;Guanacaste;Efectivo;No
+83;31/8/2025;Funda protectora celular;Accesorios;3;7900;Kevin Solano;Guanacaste;Efectivo;No
+84;14/8/2025;Laptop gamer 15 pulgadas;Laptops;1;1150700.0;Ana Rojas;Guanacaste;Efectivo;No
+85;23/6/2025;Audífonos inalámbricos;Audio;2;26900.0;Ana Rojas;Limón;Transferencia;No
+86;7/9/2025;Funda protectora celular;Accesorios;4;3200.0;Ana Rojas;Alajuela;Transferencia;No
+87;21/2/2025;Cargador portátil (power bank);Accesorios;1;18000.0;Ana Rojas;San José;Transferencia;No
+88;30/7/2025;Mouse inalámbrico;Accesorios;2;13100.0;Luis Chinchilla;Alajuela;Tarjeta;No
+89;15/3/2025;Teclado mecánico;Accesorios;1;35200.0;Kevin Solano;Cartago;Tarjeta;No
+90;15/8/2025;Laptop gamer 15 pulgadas;Laptops;4;1193200.0;Marisol Vargas;Guanacaste;Sinpe Móvil;No
+91;24/2/2025;Monitor 27 pulgadas curvo;Monitores;1;264300.0;  FABIOLA ARAYA  ;Cartago;Transferencia;Sí
+92;26/1/2025;Cargador portátil (power bank);Accesorios;4;18700.0;Marisol Vargas;Limón;Efectivo;No
+93;12/3/2025;Cargador portátil (power bank);Accesorios;2;20700.0;Ana Rojas;Cartago;Sinpe Móvil;Sí
+94;1/8/2025;Parlante bluetooth;Audio;1;25300.0;Fabiola Araya;Cartago;Transferencia;No
+94;1/8/2025;Parlante bluetooth;Audio;1;25300.0;Fabiola Araya;Cartago;Transferencia;No
+95;23/6/2025;Audífonos inalámbricos;Audio;3;29000.0;Ana Rojas;Alajuela;Efectivo;No
+96;7/7/2025;Mouse inalámbrico;Accesorios;1;9600.0;Marisol Vargas;Puntarenas;Tarjeta;No
+97;10/7/2025;Cargador portátil (power bank);Accesorios;1;12000.0;Ana Rojas;Puntarenas;Transferencia;No
+98;4/6/2025;Funda protectora celular;Accesorios;2;3600.0;Ana Rojas;San José;Transferencia;No
+99;21/8/2025;Monitor 24 pulgadas;Monitores;1;176500.0;Fabiola Araya;Heredia;Efectivo;No
+100;17/1/2025;Audífonos inalámbricos;Audio;2;21500.0;Kevin Solano;Alajuela;Transferencia;Sí
+101;1/2/2025;Parlante bluetooth;Audio;1;27600.0;Ana Rojas;Limón;Sinpe Móvil;Sí
+102;20/6/2025;Laptop 14 pulgadas;Laptops;1;414000.0;Fabiola Araya;Alajuela;Tarjeta;No
+102;20/6/2025;Laptop 14 pulgadas;Laptops;1;414000.0;Fabiola Araya;Alajuela;Tarjeta;No
+103;18/6/2025;Celular gama alta;Celulares;3;626000.0;Fabiola Araya;San José;Transferencia;No
+104;26/2/2025;Celular gama media;Celulares;2;;Ana Rojas;Cartago;Efectivo;No
+105;27/9/2025;Monitor 24 pulgadas;Monitores;1;114400.0;Kevin Solano;Limón;Transferencia;No
+106;24/9/2025;Laptop 14 pulgadas;Laptops;1;553700.0;Ana Rojas;San José;Sinpe Móvil;No
+107;7/2/2025;Monitor 27 pulgadas curvo;Monitores;4;231900.0;Luis Chinchilla;San José;Efectivo;Sí
+107;7/2/2025;Monitor 27 pulgadas curvo;Monitores;4;231900.0;Luis Chinchilla;San José;Efectivo;Sí
+108;31/5/2025;Teclado mecánico;Accesorios;2;34300.0;Ana Rojas;Limón;Tarjeta;No
+109;9/8/2025;Celular gama alta;Celulares;2;430000.0;Marisol Vargas;Limón;Sinpe Móvil;No
+110;11/7/2025;Audífonos inalámbricos;Audio;5;35600.0;Kevin Solano;San José;Tarjeta;No
+111;31/1/2025;Celular gama media;Celulares;2;234200.0;Marisol Vargas;Guanacaste;Tarjeta;No
+112;27/1/2025;Funda protectora celular;Accesorios;5;6000.0;Marisol Vargas;San José;Efectivo;Sí
+112;27/1/2025;Funda protectora celular;Accesorios;5;6000.0;Marisol Vargas;San José;Efectivo;Sí
+113;8/7/2025;Mouse inalámbrico;Accesorios;1;8500.0;Luis Chinchilla;Limón;Sinpe Móvil;No
+114;14/1/2025;Cargador portátil (power bank);Accesorios;2;17600.0;Marisol Vargas;San José;Efectivo;Sí
+115;15/3/2025;Celular gama media;Celulares;2;210100.0;Luis Chinchilla;Guanacaste;Tarjeta;Sí
+116;9/7/2025;Celular gama media;Celulares;1;198700.0;  FABIOLA ARAYA  ;Puntarenas;Tarjeta;No
+117;20/5/2025;Laptop gamer 15 pulgadas;Laptops;1;883200.0;Fabiola Araya;Heredia;Sinpe Móvil;Sí
+118;7/9/2025;Audífonos inalámbricos;Audio;2;24300.0;Luis Chinchilla;Heredia;Tarjeta;Sí
+119;29/5/2025;Audífonos inalámbricos;Audio;1;15200.0;Kevin Solano;Alajuela;Efectivo;No
+120;6/2/2025;Parlante bluetooth;Audio;1;49700.0;Kevin Solano;San José;Sinpe Móvil;No
+121;2/8/2025;Funda protectora celular;Accesorios;1;5000.0;Marisol Vargas;Alajuela;Sinpe Móvil;No
+122;12/8/2025;Celular gama alta;Celulares;2;533400.0;Kevin Solano;Limón;Transferencia;No
+123;28/2/2025;Cargador portátil (power bank);Accesorios;2;11500.0;Marisol Vargas;Cartago;Efectivo;Sí
+124;8/2/2025;Cargador portátil (power bank);Accesorios;1;19000.0;Kevin Solano;Heredia;Sinpe Móvil;No
+125;11/6/2025;Parlante bluetooth;Audio;1;22700.0;Kevin Solano;Guanacaste;Transferencia;No
+126;20/8/2025;Monitor 27 pulgadas curvo;Monitores;1;237900.0;Marisol Vargas;San José;Tarjeta;No
+126;20/8/2025;Monitor 27 pulgadas curvo;Monitores;1;237900.0;Marisol Vargas;San José;Tarjeta;No
+127;22/1/2025;Funda protectora celular;Accesorios;1;7000.0;Luis Chinchilla;Cartago;Sinpe Móvil;No
+128;13/2/2025;Parlante bluetooth;Audio;2;26900.0;Luis Chinchilla;Guanacaste;Sinpe Móvil;No
+129;18/7/2025;Audífonos inalámbricos;Audio;1;25200.0;Fabiola Araya;San José;Transferencia;Sí
+130;18/3/2025;Funda protectora celular;Accesorios;1;5900.0;Luis Chinchilla;Cartago;Transferencia;No
+131;8/6/2025;Laptop gamer 15 pulgadas;Laptops;2;1003900.0;Marisol Vargas;Limón;Efectivo;No
+132;17/2/2025;Mouse inalámbrico;Accesorios;2;9800.0;Marisol Vargas;San José;Transferencia;Sí
+133;26/4/2025;Celular gama alta;Celulares;5;404200.0;Marisol Vargas;Limón;Tarjeta;No
+134;22/6/2025;Cargador portátil (power bank);Accesorios;4;17000.0;Fabiola Araya;Heredia;Efectivo;Sí
+135;13/8/2025;Celular gama media;Celulares;1;204600.0;Luis Chinchilla;Heredia;Transferencia;No
+136;10/4/2025;Monitor 27 pulgadas curvo;Monitores;1;313100.0;Kevin Solano;Heredia;Transferencia;No
+136;10/4/2025;Monitor 27 pulgadas curvo;Monitores;1;313100.0;Kevin Solano;Heredia;Transferencia;No
+137;12/3/2025;Celular gama alta;Celulares;4;368300.0;Kevin Solano;Limón;Transferencia;No
+138;12/2/2025;Audífonos inalámbricos;Audio;3;23200.0;Fabiola Araya;Alajuela;Sinpe Móvil;Sí
+139;1/8/2025;Laptop 14 pulgadas;Laptops;1;;Luis Chinchilla;Heredia;Tarjeta;No
+140;21/6/2025;Cargador portátil (power bank);Accesorios;3;10800.0;Marisol Vargas;Limón;Sinpe Móvil;No
+141;10/2/2025;Laptop 14 pulgadas;Laptops;1;438200.0;  LUIS CHINCHILLA  ;Puntarenas;Sinpe Móvil;Sí
+142;23/8/2025;Monitor 24 pulgadas;Monitores;1;168600.0;Kevin Solano;Puntarenas;Tarjeta;No
+143;30/6/2025;Laptop 14 pulgadas;Laptops;1;492500.0;Ana Rojas;Puntarenas;Transferencia;Sí
+144;11/1/2025;Mouse inalámbrico;Accesorios;1;10200.0;Kevin Solano;Cartago;Transferencia;No
+145;23/2/2025;Cargador portátil (power bank);Accesorios;3;18600.0;Marisol Vargas;Alajuela;Tarjeta;No
+146;26/8/2025;Cargador portátil (power bank);Accesorios;5;15200.0;Luis Chinchilla;Limón;Efectivo;Sí
+147;13/4/2025;Laptop 14 pulgadas;Laptops;4;465200.0;Marisol Vargas;Puntarenas;Sinpe Móvil;No
+148;27/5/2025;Celular gama alta;Celulares;1;623300.0;Marisol Vargas;Cartago;Tarjeta;No
+149;23/6/2025;Monitor 24 pulgadas;Monitores;5;144700.0;Kevin Solano;Cartago;Transferencia;No
+150;31/5/2025;Celular gama media;Celulares;1;162000.0;Marisol Vargas;Cartago;Sinpe Móvil;No
+151;30/6/2025;Laptop 14 pulgadas;Laptops;2;497400.0;Ana Rojas;San José;Sinpe Móvil;No
+152;13/8/2025;Celular gama media;Celulares;1;;Marisol Vargas;Cartago;Sinpe Móvil;No
+152;13/8/2025;Celular gama media;Celulares;1;;Marisol Vargas;Cartago;Sinpe Móvil;No
+153;10/7/2025;Parlante bluetooth;Audio;1;23100.0;Luis Chinchilla;Puntarenas;Transferencia;No
+154;6/4/2025;Funda protectora celular;Accesorios;2;4900.0;Fabiola Araya;San José;Transferencia;No
+155;9/9/2025;Funda protectora celular;Accesorios;1;3700.0;Ana Rojas;Heredia;Efectivo;No
+156;27/6/2025;Parlante bluetooth;Audio;3;42000.0;Marisol Vargas;Cartago;Efectivo;No
+157;25/4/2025;Mouse inalámbrico;Accesorios;1;7800.0;Luis Chinchilla;Alajuela;Sinpe Móvil;Sí
+158;8/3/2025;Mouse inalámbrico;Accesorios;2;6800.0;Marisol Vargas;Heredia;Sinpe Móvil;No
+159;7/2/2025;Parlante bluetooth;Audio;1;47200.0;Marisol Vargas;Alajuela;Efectivo;No
+160;23/9/2025;Laptop gamer 15 pulgadas;Laptops;1;740600.0;Marisol Vargas;Guanacaste;Efectivo;Sí
+161;11/4/2025;Audífonos inalámbricos;Audio;2;31500.0;Luis Chinchilla;Guanacaste;Transferencia;No
+162;20/3/2025;Teclado mecánico;Accesorios;1;;Fabiola Araya;Cartago;Tarjeta;No
+163;16/5/2025;Teclado mecánico;Accesorios;2;38700.0;Kevin Solano;Puntarenas;Tarjeta;No
+163;16/5/2025;Teclado mecánico;Accesorios;2;38700.0;Kevin Solano;Puntarenas;Tarjeta;No
+164;6/5/2025;Monitor 27 pulgadas curvo;Monitores;3;279000.0;Marisol Vargas;Heredia;Tarjeta;No
+165;15/3/2025;Parlante bluetooth;Audio;1;48700.0;Marisol Vargas;Heredia;Efectivo;No
+166;17/5/2025;Laptop gamer 15 pulgadas;Laptops;1;727500.0;Ana Rojas;Cartago;Sinpe Móvil;No
+167;10/6/2025;Parlante bluetooth;Audio;1;26400.0;Fabiola Araya;Heredia;Sinpe Móvil;No
+168;4/5/2025;Monitor 27 pulgadas curvo;Monitores;1;235900.0;Ana Rojas;Cartago;Sinpe Móvil;No
+169;25/2/2025;Laptop 14 pulgadas;Laptops;1;618300.0;Marisol Vargas;Limón;Sinpe Móvil;No
+170;28/5/2025;Mouse inalámbrico;Accesorios;1;10500.0;Fabiola Araya;Cartago;Tarjeta;Sí
+171;7/7/2025;Mouse inalámbrico;Accesorios;3;7800.0;Fabiola Araya;Heredia;Tarjeta;Sí
+172;18/3/2025;Monitor 27 pulgadas curvo;Monitores;2;257000.0;Marisol Vargas;Puntarenas;Transferencia;Sí
+173;17/9/2025;Parlante bluetooth;Audio;3;41300.0;Fabiola Araya;Cartago;Sinpe Móvil;No
+173;17/9/2025;Parlante bluetooth;Audio;3;41300.0;Fabiola Araya;Cartago;Sinpe Móvil;No
+174;7/6/2025;Teclado mecánico;Accesorios;3;37600.0;Ana Rojas;Puntarenas;Sinpe Móvil;Sí
+175;27/1/2025;Celular gama alta;Celulares;2;409700.0;Fabiola Araya;Cartago;Sinpe Móvil;Sí
+176;8/4/2025;Laptop gamer 15 pulgadas;Laptops;1;822500.0;Luis Chinchilla;Heredia;Efectivo;No
+177;1/2/2025;Funda protectora celular;Accesorios;3;5600.0;Fabiola Araya;Cartago;Sinpe Móvil;No
+178;1/7/2025;Parlante bluetooth;Audio;2;54700.0;Marisol Vargas;Puntarenas;Sinpe Móvil;Sí
+179;28/5/2025;Audífonos inalámbricos;Audio;3;35700.0;Kevin Solano;Cartago;Sinpe Móvil;Sí
+180;14/7/2025;Laptop gamer 15 pulgadas;Laptops;4;867000.0;Marisol Vargas;Limón;Efectivo;Sí
+181;12/5/2025;Monitor 27 pulgadas curvo;Monitores;3;217800.0;Fabiola Araya;Cartago;Transferencia;Sí
+182;26/4/2025;Cargador portátil (power bank);Accesorios;2;9700.0;Kevin Solano;;Sinpe Móvil;Sí
+183;28/7/2025;Celular gama media;Celulares;2;282100.0;Kevin Solano;Heredia;Efectivo;No
+184;29/4/2025;Laptop gamer 15 pulgadas;Laptops;2;1047700.0;Ana Rojas;Alajuela;Sinpe Móvil;No
+185;11/9/2025;Monitor 24 pulgadas;Monitores;1;162400.0;Marisol Vargas;San José;Tarjeta;Sí
+186;26/9/2025;Monitor 27 pulgadas curvo;Monitores;2;312000.0;Fabiola Araya;Heredia;Transferencia;Sí
+187;6/4/2025;Audífonos inalámbricos;Audio;1;25100.0;Marisol Vargas;Puntarenas;Efectivo;Sí
+188;17/6/2025;Mouse inalámbrico;Accesorios;1;12000.0;Luis Chinchilla;Alajuela;Sinpe Móvil;Sí
+189;18/6/2025;Audífonos inalámbricos;Audio;1;;Ana Rojas;Cartago;Transferencia;No
+190;15/9/2025;Monitor 24 pulgadas;Monitores;4;172100.0;Marisol Vargas;Guanacaste;Tarjeta;No
+191;2/9/2025;Celular gama media;Celulares;1;262200.0;Fabiola Araya;Cartago;Sinpe Móvil;No
+192;7/5/2025;Celular gama alta;Celulares;2;558500.0;Ana Rojas;Puntarenas;Sinpe Móvil;No
+193;16/9/2025;Mouse inalámbrico;Accesorios;1;10800.0;Luis Chinchilla;Cartago;Sinpe Móvil;Sí
+194;17/8/2025;Mouse inalámbrico;Accesorios;3;10100.0;Fabiola Araya;Heredia;Sinpe Móvil;No
+195;22/7/2025;Laptop 14 pulgadas;Laptops;1;380800.0;Luis Chinchilla;Puntarenas;Tarjeta;Sí
+196;30/8/2025;Laptop gamer 15 pulgadas;Laptops;1;874900.0;Luis Chinchilla;Limón;Sinpe Móvil;No
+197;12/7/2025;Monitor 24 pulgadas;Monitores;1;177500.0;Fabiola Araya;Alajuela;Transferencia;Sí
+198;2/1/2025;Celular gama alta;Celulares;3;692500.0;Kevin Solano;Guanacaste;Sinpe Móvil;No
+199;7/4/2025;Audífonos inalámbricos;Audio;4;36800.0;Ana Rojas;San José;Sinpe Móvil;No
+200;21/2/2025;Laptop gamer 15 pulgadas;Laptops;2;895500.0;Ana Rojas;Alajuela;Tarjeta;No
+201;13/3/2025;Laptop 14 pulgadas;Laptops;2;458100.0;Fabiola Araya;Cartago;Transferencia;Sí
+202;3/6/2025;Monitor 24 pulgadas;Monitores;1;149000.0;Fabiola Araya;Guanacaste;Efectivo;No
+203;15/7/2025;Cargador portátil (power bank);Accesorios;3;13100.0;Kevin Solano;Heredia;Efectivo;Sí
+204;3/6/2025;Celular gama alta;Celulares;4;400500.0;Kevin Solano;San José;Sinpe Móvil;No
+205;19/6/2025;Celular gama alta;Celulares;2;672800.0;  MARISOL VARGAS  ;San José;Efectivo;Sí
+206;7/4/2025;Laptop gamer 15 pulgadas;Laptops;3;973200.0;Fabiola Araya;Alajuela;Sinpe Móvil;Sí
+207;8/4/2025;Celular gama alta;Celulares;5;391100.0;Kevin Solano;Alajuela;Efectivo;No
+208;3/7/2025;Monitor 27 pulgadas curvo;Monitores;1;236800.0;Kevin Solano;Heredia;Tarjeta;No
+209;9/7/2025;Celular gama alta;Celulares;1;366000.0;Luis Chinchilla;Guanacaste;Efectivo;Sí
+210;20/3/2025;Audífonos inalámbricos;Audio;1;21900.0;Fabiola Araya;Limón;Efectivo;No
+211;9/9/2025;Monitor 27 pulgadas curvo;Monitores;2;285300.0;Marisol Vargas;Alajuela;Efectivo;No
+212;31/1/2025;Cargador portátil (power bank);Accesorios;2;19900.0;Ana Rojas;Limón;Tarjeta;No
+213;19/3/2025;Funda protectora celular;Accesorios;1;7900;Marisol Vargas;San José;Sinpe Móvil;No
+214;21/5/2025;Laptop 14 pulgadas;Laptops;2;457400.0;Fabiola Araya;Limón;Sinpe Móvil;No
+215;4/5/2025;Celular gama media;Celulares;1;229000.0;Marisol Vargas;Cartago;Sinpe Móvil;Sí
+216;26/4/2025;Funda protectora celular;Accesorios;1;7100.0;Ana Rojas;Guanacaste;Tarjeta;Sí
+217;29/3/2025;Laptop 14 pulgadas;Laptops;1;608200.0;Marisol Vargas;Puntarenas;Tarjeta;No
+218;1/9/2025;Funda protectora celular;Accesorios;1;7600.0;Marisol Vargas;Limón;Tarjeta;Sí
+219;23/7/2025;Celular gama media;Celulares;4;194900.0;Fabiola Araya;Alajuela;Sinpe Móvil;No
+220;10/2/2025;Funda protectora celular;Accesorios;2;7900;Ana Rojas;San José;Sinpe Móvil;Sí
+Total;;;;;;;231;;232
